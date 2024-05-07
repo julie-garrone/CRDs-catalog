@@ -14,7 +14,7 @@ jobs:
         with:
           repository: datreeio/kubernetes-schema-validation
           sparse-checkout: benchmark
-      - run: ls
+      - run: ls benchmark
       - name: Login to GitHub Container Registry
         uses: docker/login-action@v3
         with:
